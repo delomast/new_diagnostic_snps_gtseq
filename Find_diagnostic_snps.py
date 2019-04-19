@@ -41,7 +41,7 @@ def Main():
 		if sys.argv[flag] == '-min_depth':
 			min_depth = int(sys.argv[flag + 1])
 		if sys.argv[flag] == '-min_prop':
-			min_num_haplo = sys.argv[flag + 1]
+			min_num_haplo = float(sys.argv[flag + 1])
 		if sys.argv[flag] == '-min_error':
 			min_error = float(sys.argv[flag + 1])
 		if sys.argv[flag] == '-s1':
